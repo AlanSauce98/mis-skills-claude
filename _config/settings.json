@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Users\\sauce\\.claude\\skills-sync\\sync.ps1\""
+          }
+        ]
+      }
+    ]
+  },
+  "extraKnownMarketplaces": {
+    "cloudflare": {
+      "source": {
+        "source": "github",
+        "repo": "cloudflare/skills"
+      }
+    }
+  },
+  "language": "spanish",
+  "theme": "dark-ansi",
+  "enabledPlugins": {
+    "cloudflare@cloudflare": true
+  }
+}

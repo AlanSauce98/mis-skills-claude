@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791834320159,
+  "lastUpdated": 1792164483494,
   "skills": [
     {
       "skillId": "docs",
@@ -27,7 +27,7 @@
       "name": "google-workspace",
       "description": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file. Use this skill whenever the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \"change it\" or \"add a tab\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
       "source": "anthropic-example",
-      "updatedAt": "2026-10-06T23:31:35.618898Z"
+      "updatedAt": "2026-10-14T14:41:49.960676Z"
     },
     {
       "skillId": "skill-creator",
@@ -279,6 +279,14 @@
       "source": "plugin",
       "updatedAt": "2026-09-03T19:04:15.255355Z",
       "backingPluginId": "plugin_011rGrVcZESbrxNg2wFU4w3i"
+    },
+    {
+      "skillId": "skill_01KdJ5e8B7o1wbSE2sjeRSWx",
+      "name": "revision-iso27001-pacer",
+      "description": "Revisar un documento del SGSI de Pacer (ISO 27001, set de Hackmetrix) contra la base pacer-mcp-iso27001 y redactar el veredicto y el mensaje de revisión para Lisandro.",
+      "source": "plugin",
+      "updatedAt": "2026-10-15T14:17:56.795967Z",
+      "backingPluginId": "plugin_01SPXVMxwZMVJcuX48t5NwRf"
     }
   ]
 }
